@@ -56,6 +56,14 @@
    Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
    
    Click Connect Button.
+   
+   ![](./img/checkout1.png)
+   
+   ![](./img/checkout2.png)
+   
+   ![](./img/checkout3.png)
+   
+   ![](./img/checkout4.png)
 
 ## Step 3: Testing your Coinpal Wix Integration.
 
@@ -66,8 +74,6 @@ Add a test item to your shopping cart and view the cart.
 Proceed to Checkout
 
 Select Pay With Coinpal Method.
-
-Click Place Order
 
 Click the “Place Order & Pay” button.
 
