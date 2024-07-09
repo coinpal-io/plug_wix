@@ -7,16 +7,16 @@ export function getConfig() {
         title: 'Coinpal Payment',
         paymentMethods: [{
             hostedPage: {
-                title: 'Pay With Coinpal',
+                title: 'Pay Crypto with Coinpal',
                 billingAddressMandatoryFields: [],
                 logos: {
                     white: {
-                        svg: 'https://card.coinpal.io/assets/logo-a64c3844.svg',
-                        png: 'https://docs.coinpal.io/static/images/coinpal-logo.png'
+                        svg: 'https://www.coinpal.io/images/plug_coinpal.png',
+                        png: 'https://www.coinpal.io/images/plug_coinpal.png'
                     },
                     colored: {
-                        svg: 'https://card.coinpal.io/assets/logo-a64c3844.svg',
-                        png: 'https://docs.coinpal.io/static/images/coinpal-logo.png'
+                        svg: 'https://www.coinpal.io/images/plug_coinpal.png',
+                        png: 'https://www.coinpal.io/images/plug_coinpal.png'
                     }
                 }
             }

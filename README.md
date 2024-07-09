@@ -51,15 +51,13 @@
 
 8. Configure Coinpal Wix Gateway
    
-   Go to the Wix Admin, click Settings -> Checkout -> Go To Accept Payments.
+   Go to the Wix Admin, click Settings -> Accept payments.
    
    Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
    
    Click Connect Button.
    
    ![](./img/checkout1.png)
-   
-   ![](./img/checkout2.png)
    
    ![](./img/checkout3.png)
    
