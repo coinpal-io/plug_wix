@@ -31,6 +31,16 @@ export async function createTransaction(options) {
         }
         const responseData = await response.json();
         const orderInfo = await getOrder(options.order._id);
+        if (orderInfo.priceSummary.totalPrice.amount && responseData.orderAmount) {
+            if (parseFloat(orderInfo.priceSummary.totalPrice.amount) > parseFloat(responseData.orderAmount)) {
+                throw new Error('price error');
+            }
+        }
+        if (orderInfo.currency && responseData.orderCurrency) {
+            if (orderInfo.currency.toUpperCase() != responseData.orderCurrency.toUpperCase()) {
+                throw new Error('currency error');
+            }
+        }
         return {
             pluginTransactionId: responseData.reference,
             redirectUrl: responseData.nextStepContent,
