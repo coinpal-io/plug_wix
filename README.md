@@ -7,8 +7,8 @@
 
 2. Follow the Dashboard guidelines to fill in the relevant information
 ![](./img/kyb.png)
-3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant Id
-![](./img/merchant-id.png)
+3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant Id and Secret Key
+![](./img/api-key.png)
 4. Click on the left column My Account -> My store -> New Store, enter relevant information, click Save, and obtain the relevant Access Token on the current page
 ![](./img/store1.png)
 
@@ -62,6 +62,18 @@
    ![](./img/checkout3.png)
    
    ![](./img/checkout4.png)
+
+9. Configure asynchronous notification key
+
+    Go to the Wix Admin, click Developer Tools -> Secrets Manager -> Add Secret.
+    
+    Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
+    
+    Click "Add Secret" button.
+    
+    ![](./img/key1.png)
+    
+    ![](./img/key2.png)
 
 ## Step 3: Testing your Coinpal Wix Integration.
 

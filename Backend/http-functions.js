@@ -32,7 +32,7 @@
  **********************/
 // The following is an example of an HTTP function, which gets the product of 2 operands. Adapt the code below for your specific use case.
 
-import * as Coinpal from "wix-coinpal"
+import * as Coinpal from "backend/Coinpal.js"
 
 /**
  * Notify from Coinapl
