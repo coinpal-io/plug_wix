@@ -1,6 +1,6 @@
 # Wix CoinPal Checkout Installation
 
-## Step 1: Log in to the CoinPal Admin Dashboard to get the Merchant Number and Secret Key.
+## Step 1: Login to the CoinPal Admin Dashboard to get the Merchant Number and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to CoinPal's Admin Dashboard 
 
 ![](./img/register.png)
