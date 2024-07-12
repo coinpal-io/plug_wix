@@ -7,7 +7,7 @@
 
 2. Follow the Dashboard guidelines to fill in the relevant information
 ![](./img/kyb.png)
-3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant Id and Secret Key
+3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant No. and Secret Key
 ![](./img/api-key.png)
 4. Click on the left column My Account -> My store -> New Store, enter relevant information, click Save, and obtain the relevant Access Token on the current page
 ![](./img/store1.png)
@@ -55,7 +55,7 @@
    
    Copy and Paste all of the Settings you generated in your CoinPal Dashboard on Step #1.
    
-   Click Connect Button.
+   Click "Connect" button.
    
    ![](./img/checkout1.png)
    
@@ -81,7 +81,7 @@ To confirm your Integration is properly working create a test order:
 
 Add a test item to your shopping cart and view the cart.
 
-Proceed to Checkout
+Proceed to Checkout.
 
 Select Pay Crypto With Coinpal Method.
 
@@ -93,7 +93,7 @@ If you like you can now proceed to making a test payment.
 
 ![](./img/payment.png)
 
-## Step 4: Marking a Payment as Received on WooCommerce.
+## Step 4: Marking a Payment as Received on Wix.
 
 Login to your Wix Admin Dashboard.
 
