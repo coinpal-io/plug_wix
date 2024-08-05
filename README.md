@@ -60,6 +60,8 @@
     
    ![](./img/website11.png)
 
+   Mouse over the WIX logo and click on "Go to Dashboard"
+
    ![](./img/website12.png)
 
 
@@ -71,14 +73,14 @@
    
    Click "Connect" button.
    
-   Mouse over the WIX logo and click on "Go to Dashboard"
-   
    ![](./img/checkout1.png)
    
    ![](./img/checkout3.png)
    
    Log in to your CoinPal admin panel
+   
    ·Click "Integration"，Get the “Merchant No."
+   
    ·Click "My Account ->My Store"，Get the "Access Token"
   
    ![](./img/checkout4.png)
@@ -94,6 +96,7 @@
     ![](./img/key1.png)
     
     Log in to your CoinPal admin panel
+    
     ·Click "Integration"，Get the "Secret Key"
     
     ![](./img/key2.png)
