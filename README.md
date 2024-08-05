@@ -37,6 +37,15 @@
 ![](./img/website6.png)
 
 5. Copy the relevant JS content from the plug_wix directory in GitHub to the corresponding JS file one by one
+
+ 1.Backend
+ 1.1 Coinpal.js：[https://github.com/coinpal-io/plug_wix/blob/main/Backend/Coinpal.js](https://github.com/coinpal-io/plug_wix/blob/main/Backend/Coinpal.js)
+ 1.2 http-functions.js：[https://github.com/coinpal-io/plug_wix/blob/main/Backend/http-functions.js](https://github.com/coinpal-io/plug_wix/blob/main/Backend/http-functions.js)
+ 
+ 2.CoinpalPayment
+ 2.1 CoinpalPayment-config.js：[https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment-config.js](https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment-config.js)
+ 2.2 CoinpalPayment.js：[https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment.js](https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment.js)
+ 
 ![](./img/website7.png)
 
 ![](./img/website8.png)
@@ -47,7 +56,12 @@
 ![](./img/website10.png)
    
 7. In the upper right corner, click the "Publish" button to publish this website
-![](./img/website11.png)
+
+    
+   ![](./img/website11.png)
+
+   ![](./img/website12.png)
+
 
 8. Configure CoinPal Wix Gateway
    
@@ -57,12 +71,18 @@
    
    Click "Connect" button.
    
+   Mouse over the WIX logo and click on "Go to Dashboard"
+   
    ![](./img/checkout1.png)
    
    ![](./img/checkout3.png)
    
+   Log in to your CoinPal admin panel
+   ·Click "Integration"，Get the “Merchant No."
+   ·Click "My Account ->My Store"，Get the "Access Token"
+  
    ![](./img/checkout4.png)
-
+   
 9. Configure asynchronous notification key
 
     Go to the Wix Admin, click Developer Tools -> Secrets Manager -> Add Secret.
@@ -72,6 +92,9 @@
     Click "Add Secret" button.
     
     ![](./img/key1.png)
+    
+    Log in to your CoinPal admin panel
+    ·Click "Integration"，Get the "Secret Key"
     
     ![](./img/key2.png)
 
@@ -83,7 +106,7 @@ Add a test item to your shopping cart and view the cart.
 
 Proceed to Checkout.
 
-Select Pay Crypto With Coinpal Method.
+Select Pay Crypto With CoinPal Method.
 
 Click the "Place Order & Pay" button.
 
@@ -91,7 +114,7 @@ Verify all of the Wallet Addresses and Order info, and make sure the Validation 
 
 If you like you can now proceed to making a test payment.
 
-![](./img/payment.png)
+![](./img/payment2.png)
 
 ## Step 4: Marking a Payment as Received on Wix.
 

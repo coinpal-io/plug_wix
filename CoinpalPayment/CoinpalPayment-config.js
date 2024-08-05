@@ -7,7 +7,7 @@ export function getConfig() {
         title: 'Coinpal Payment',
         paymentMethods: [{
             hostedPage: {
-                title: 'Pay Crypto with Coinpal',
+                title: 'Pay Crypto with CoinPal',
                 billingAddressMandatoryFields: [],
                 logos: {
                     white: {
