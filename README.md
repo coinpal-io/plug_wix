@@ -39,11 +39,15 @@
 5. Copy the relevant JS content from the plug_wix directory in GitHub to the corresponding JS file one by one
 
  1.Backend
+ 
  1.1 Coinpal.js：[https://github.com/coinpal-io/plug_wix/blob/main/Backend/Coinpal.js](https://github.com/coinpal-io/plug_wix/blob/main/Backend/Coinpal.js)
+ 
  1.2 http-functions.js：[https://github.com/coinpal-io/plug_wix/blob/main/Backend/http-functions.js](https://github.com/coinpal-io/plug_wix/blob/main/Backend/http-functions.js)
  
  2.CoinpalPayment
+ 
  2.1 CoinpalPayment-config.js：[https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment-config.js](https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment-config.js)
+ 
  2.2 CoinpalPayment.js：[https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment.js](https://github.com/coinpal-io/plug_wix/blob/main/CoinpalPayment/CoinpalPayment.js)
  
 ![](./img/website7.png)
