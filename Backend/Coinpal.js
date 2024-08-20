@@ -11,6 +11,21 @@ const getOrder = elevate(orders.getOrder);
  * connect for Coinpal
  */
 export async function connect(request) {
+    const response = await fetch('https://pay.coinpal.io/gateway/wix/content', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(request)
+    });
+    const responseData = await response.json();
+    if (responseData.respCode != 200) {
+        return {
+            reasonCode: 2002,
+            errorCode: "MERCHANT_ACCOUNT_INVALID",
+            errorMessage: "Merchant account invalid",
+        };
+    }
     return {
         credentials: request.credentials,
         accountName: "tech@coinpal.io",
